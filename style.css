@@ -16,3 +16,11 @@ body {
   height: 1000px;
   width: 100%;
 }
+
+.thing {
+  height: 50em;
+  /*margin-top:100vh;*/
+  z-index: 1;
+  position: relative;
+  background-color: red;
+}
