@@ -17,10 +17,28 @@ body {
   width: 100%;
 }
 
-.thing {
-  height: 50em;
-  /*margin-top:100vh;*/
+.body_content {
+  height: 200em;
   z-index: 1;
   position: relative;
-  background-color: red;
+  background-color: #111622;
+  transform: skewY(2deg);
+  transform-origin: 100%;
+}
+
+body > div:nth-child(2) {
+  background-color: rgba(0,0,0,0);
+}
+
+.paragraph_text {
+  transform: skewY(-2deg);
+  transform-origin: 100%;
+}
+
+.synopsis {
+  width: 60%;
+  margin: auto;
+  display: block;
+  padding-top: 4em;
+  color: #e6bd42;
 }
